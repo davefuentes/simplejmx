@@ -23,6 +23,7 @@ Little Sample Program
 http://256.com/sources/simplejmx/docs/example-simple
 -----------------------------------------------------------------------------
 
+```java
 // create a new JMX server listening on a specific port
 JmxServer jmxServer = new JmxServer(JMX_PORT);
 // NOTE: you could also do: new JmxServer(ManagementFactory.getPlatformMBeanServer());
@@ -60,3 +61,4 @@ public class RuntimeCounter {
 		return "Timer has been reset to current millis";
 	}
 }
+```
